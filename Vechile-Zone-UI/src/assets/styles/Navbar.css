@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #009688;
+    color: white;
+    padding: 0 20px;
+}
+
+
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #009688, #4caf50);
+}
+
+.avatar {
+    margin-left: -6.2px; /* Adjust as needed */
+}
+
+.title {
+    margin-left: 12px; /* Adjust as needed */
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-button {
+    margin-right: 20px;
+}
+
+.drawer {
+    & .MuiDrawer-paper {
+        background-color: #fff; /* Adjust drawer background color */
+        color: #000; /* Adjust drawer text color */
+    }
+}
+
+/* Additional styles as needed */
